@@ -16,6 +16,10 @@ en como tiene que ingresar los datos.
 Comúnmente las máscaras se usan cuando se ingresan información como: número de cédula, pasaporte,
 números de teléfono, precios, etc.
 
+<p align="center" >
+  <img src="./Imagenes/macaras.png" >
+</p>
+
 Para implementar máscaras se puede utilizar los siguientes dos paquetes.
 ```text
 angular2-text mask
@@ -113,6 +117,11 @@ En el componente.ts agregamos el atributo configuracionMascaraPeso donde se espe
   };
 
 ```
+* También se puede configurar desde el html las máscara desde le html.
+
+<p align="center" >
+  <img src="./Imagenes/ejemploCurrencyMask.png" >
+</p>
 
 ## Conclusión
 
