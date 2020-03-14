@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {IConfig} from "ngx-mask";
-import {CurrencyMaskConfig} from "ng2-currency-mask/src/currency-mask.config";
+
 
 @Component({
   selector: 'app-root',

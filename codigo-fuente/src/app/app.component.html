@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
@@ -9,12 +10,13 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <title>Document</title>
 </head>
+
 <body>
 
 <h1>Usando máscaras en Angular</h1>
 <div>
   <label for="phone">Número de teléfono: </label>
-  <input id="phone" [textMask]="{mask: phoneMask}" [(ngModel)]="phone" type="text"/>
+  <input id="phone" [textMask]="{mask: phoneMask}" [(ngModel)]="phone" type="text" />
 
 
 </div>
@@ -27,7 +29,7 @@
 
 <div>
   <label for="placa">Placa del auto: </label>
-  <input id="placa" [textMask]="placaAuto" type="text"/>
+  <input id="placa" [textMask]="placaAuto" type="text"placeholder="Ej: PCB-1234"/>
 </div>
 
 <div>
@@ -37,7 +39,7 @@
 
 </div>
 
-
+<!-- CONFIGURACION DIRECTAMENTE DESDE EL HTML -->
 <div>
   <label>Precio del auto: </label>
   <input currencyMask [(ngModel)]="precioAuto"
@@ -47,7 +49,5 @@
 
 
 </body>
+
 </html>
-
-
-
