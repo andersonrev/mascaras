@@ -120,7 +120,7 @@ En el componente.ts agregamos el atributo configuracionMascaraPeso donde se espe
 * También se puede configurar desde el html las máscara desde le html.
 
 <p align="center" >
-  <img src="./Imagenes/ejemploCurrencyMask.png" >
+  <img src="https://github.com/andersonrev/mascaras/blob/master/Imagenes/ejemploCurrencyMask.png" >
 </p>
 
 ## Conclusión
