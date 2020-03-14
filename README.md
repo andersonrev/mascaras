@@ -17,7 +17,7 @@ Comúnmente las máscaras se usan cuando se ingresan información como: número 
 números de teléfono, precios, etc.
 
 <p align="center" >
-  <img src="./Imagenes/macaras.png" >
+  <img src="https://github.com/andersonrev/mascaras/blob/master/Imagenes/macaras.png" >
 </p>
 
 Para implementar máscaras se puede utilizar los siguientes dos paquetes.
